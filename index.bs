@@ -5,9 +5,9 @@ H1: Stickers
 Shortname: Stickers
 Status: LS
 Editor: Terin Stock, terin@terinstock.com, https://terinstock.com
-Abstract: This specification defines a standard for sticker compatibility from multiple vendors. 
+Abstract: This specification defines a standard for sticker compatibility from multiple vendors.
 Abstract: By following this specification, implementors can ensure they meet the expectations of sticker consumers.
-Abstract: A standard allow producers to supply tools that help ensure maximum compliance and enjoyability.
+Abstract: A standard allows producers to supply tools that help ensure maximum compliance and enjoyability.
 !Participate: <a href="https://github.com/terinjokes/StickersStandard/issues/new">File an issue</a> (<a href="https://github.com/terinjokes/StickersStandard/issues?state=open">open issues</a>)
 !Version History: <a href="https://github.com/terinjokes/StickersStandard/commits">https://github.com/terinjokes/StickersStandard/commits</a>
 </pre>
@@ -28,6 +28,15 @@ A <dfn>hexagon sticker</dfn> must be represented by a regular hexagon where the 
 The sticker must be oriented with a vertex positioned at the top.
 
 <div class="note">These tolerances allow for diagonals measuring between 4.98 and 5.18 centimeters.</div>
+
+<h2 id="relative-sizes">Relative sizes</h2>
+
+Should an implementor seek to deliver stickers with dimensions other than the defined default sizes, these should be either submultiples or integer multiples of the default sizes. The following notation is used:
+
+- for fractions use "nXS" as an affix, with n being a natural number higher than 1. For example "2XS" for a sticker that is half (1/2 x) the size of the standard dimensions of the given type.
+- for multiples use "nXL" as an affix, with n being a natural number higher than 1. For example "3XL" for a sticker that is thrice (3 x) the size of the standard dimensions of the given type.
+
+<div class="note">Note that artwork designed for alternative dimensions should take into consideration the physical size of the resulting sticker, in particular for smaller sizes loss of detail is to be expected. Make sure that lines, dots and other fine aspects are scaled accordingly. Tolerances for stickers with larger sizes remain at 1 millimeter tolerance, while for smaller sizes tolerances are scaled down on a best effort basis.</div>
 
 <h2 id="non-conforming">On Non-conforming Stickers</h2>
 
