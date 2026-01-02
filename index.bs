@@ -33,8 +33,8 @@ The sticker must be oriented with a vertex positioned at the top.
 
 Should an implementor seek to deliver stickers with dimensions other than the defined default sizes, these should be either submultiples or integer multiples of the default sizes. The following notation is used:
 
-- for fractions use "nXS" as an affix, with n being a natural number higher than 1. For example "2XS" for a sticker that is half (1/2 x) the size of the standard dimensions of the given type.
-- for multiples use "nXL" as an affix, with n being a natural number higher than 1. For example "3XL" for a sticker that is thrice (3 x) the size of the standard dimensions of the given type.
+- for fractions use "nXS" as an affix, with n being a natural number higher than 1. For example "2XS" for a sticker where each of the dimensions is half (1/2 x) the size of the standard dimensions of the given type. As a result the surface area would be 1/2² = 1/4 of the surface area of the default size.
+- for multiples use "nXL" as an affix, with n being a natural number higher than 1. For example "3XL" for a sticker where each of the dimensions is thrice (3 x) the size of the standard dimensions of the given type. As a result the surface area would be 3x3 = 9 times the surface area of the default size.
 
 <div class="note">Note that artwork designed for alternative dimensions should take into consideration the physical size of the resulting sticker, in particular for smaller sizes loss of detail is to be expected. Make sure that lines, dots and other fine aspects are scaled accordingly. Tolerances for stickers with larger sizes remain at 1 millimeter tolerance, while for smaller sizes tolerances are scaled down on a best effort basis.</div>
 
